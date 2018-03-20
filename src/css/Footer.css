@@ -1,0 +1,34 @@
+.red-btn {
+  width: 100%;
+}
+
+.btn-footer {
+  background-color: #b9373e!important;
+  padding: 1em;
+}
+
+.btn-link {
+  color: #fff!important;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  text-decoration: none!important;
+}
+
+.white-arrow-btn {
+  height: 2rem!important;
+}
+
+.yellow-print-icon {
+  height: 4rem !important;
+}
+
+.email-color {
+  color: #e0ab04;
+  font-weight: 700;
+}
+
+.logo-footer {
+  height: 2.5rem !important;
+}
