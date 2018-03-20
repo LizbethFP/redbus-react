@@ -1,22 +1,3 @@
 /*color distintivo de marca*/
 /* color: #e0ab04 */
-.icon-header {
-  width: 10rem;
-}
 
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-  color: #e0ab04;
-  background-color: #fff;
-  border-color: #e0ab04 #e0ab04 #fff;
-}
-
-a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
-  color: #e0ab04;
-  text-decoration: none;
-}
-
-@media (min-width: 768px) {
-  .icon-header {
-    width: 13rem;
-  }
-}

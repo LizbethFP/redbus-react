@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../css/main.css';
+import '../css/header.css';
 import Logo from './Logo';
 import Row from './Row';
 
