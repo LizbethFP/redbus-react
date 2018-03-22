@@ -3,7 +3,7 @@ import Nav from './Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Row } from 'react-bootstrap';
 import '../css/main.css';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 const Main = ({data}) => {
   return (
@@ -15,8 +15,8 @@ const Main = ({data}) => {
   )
 }
 
-Main.propTypes = {
-  data: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired
-}
+// Main.propTypes = {
+//   data: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired
+// }
 
 export default Main;

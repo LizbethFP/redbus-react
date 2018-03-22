@@ -4,7 +4,7 @@ import Slider from 'react-slick';
 // import BCP from '../assets/images/bcp-logo.png';
 import PropTypes from 'prop-types';
 
-const SliderBankIcons = ({ dataIconBanks}) => {
+const SliderBankIcons = ({ dataIconBanks, onSelectClick}) => {
   const settings = {
     dots: false,
     infinite: false,
@@ -18,7 +18,7 @@ const SliderBankIcons = ({ dataIconBanks}) => {
         <div className="col-12">
           <Slider {...settings} className="col">
             {dataIconBanks.datacopy.banksInternet.map(ele => (
-              <figure className="col" key={ele.id} {...ele}>
+              <figure className="col" key={ele.id} {...ele} onClick={() => onSelectClick(ele)}>
                 <img src={ele.url} alt={ele.id} className="p-1 img-fluid bank-logo-size" />
               </figure>
             ))}
