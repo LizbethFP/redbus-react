@@ -1,7 +1,6 @@
 import React from 'react';
 import TextParagraph1 from './TextParagraph1';
 import TextParagraph2 from './TextParagraph2';
-// import TextParagraphDisplayNoneDesktop from './TextParagraphDisplayNoneDesktop';
 import SliderTab1 from './SliderTab1';
 
 const SectionTwoTab1 = (datacopy) => (

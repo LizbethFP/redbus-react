@@ -2,6 +2,7 @@ import React from 'react';
 // import BankItem from './BankItem';
 import Slider from 'react-slick';
 // import BCP from '../assets/images/bcp-logo.png';
+import PropTypes from 'prop-types';
 
 const SliderBankIcons = ({ dataIconBanks}) => {
   const settings = {
@@ -26,6 +27,11 @@ const SliderBankIcons = ({ dataIconBanks}) => {
       </div>
     </div>
   )
+}
+
+SliderBankIcons.propTypes = {
+  id: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired,
+  url: PropTypes.string.isRequired
 }
 
 export default SliderBankIcons
