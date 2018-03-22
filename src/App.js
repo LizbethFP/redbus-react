@@ -3,7 +3,7 @@ import Main from './components/Main';
 
 const App = () => (
   <div className="row">
-    <Main />    
+    <Main />
   </div>
 )
 

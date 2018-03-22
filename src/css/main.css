@@ -9,10 +9,6 @@
   --color4:#2b2b2b; /*darkslategray*/
 }
 
-.color {
-  background-color: purple;
-}
-
 .slick-prev {
   z-index: 100;
   left: 0px !important;
@@ -21,6 +17,11 @@
   z-index: 100;
   right: 0px !important;
 } 
+button.slick-arrow.slick-next,
+button.slick-arrow.slick-prev {
+  color: var(--color1);
+  background: black;
+}
 
 .font-roboto {
   font-family: 'Roboto', sans-serif;
@@ -161,3 +162,9 @@ a.nav-link {
     height: 3.5rem !important;
   }
 }
+
+/* @media (max-width: 576px) {
+  .slick-track {
+    width: 100%!important;
+  }
+} */
