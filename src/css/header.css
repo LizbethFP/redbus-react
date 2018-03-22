@@ -1,0 +1,11 @@
+/*color distintivo de marca*/
+/* color: #e0ab04 */
+.icon-header {
+  width: 10rem;
+}
+
+@media (min-width: 768px) {
+  .icon-header {
+    width: 13rem;
+  }
+}
