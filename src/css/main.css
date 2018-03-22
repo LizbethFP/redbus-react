@@ -1,3 +1,179 @@
-/*color distintivo de marca*/
-/* color: #e0ab04 */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
 
+:root {
+  --color1: #e0aa00; /*color distintivo de marca*/
+  --color2: #ffd87f; /*kaki*/
+  --color3: #f6f4f4;  /*withesmoke*/
+  --color4:#2b2b2b; /*darkslategray*/
+}
+
+.slick-prev {
+  z-index: 100;
+  left: 0px !important;
+  background-color: var(--color1) !important;
+  border-radius: 10px;
+}
+
+.slick-next {
+  z-index: 100;
+  right: 0px !important;
+  background-color: var(--color1) !important;
+  border-radius: 10px;
+} 
+
+button.slick-arrow.slick-next,
+button.slick-arrow.slick-prev {
+  color: var(--color1);
+  background: black;
+}
+
+.font-roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.color-darkslategray {
+  color: var(--color4);
+}
+.nav-tabs {
+  border-bottom: 1px solid var(--color1)!important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: var(--color1)!important;
+  background-color: #fff!important;
+  border-color: var(--color1) var(--color1) #fff!important;
+}
+
+a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+  text-decoration: none;
+}
+
+a.nav-link:hover {
+  border: 1px solid var(--color2)!important;
+}
+
+a.nav-link.active, 
+a.nav-link {
+  font-size: 12.5px;
+  font-weight: 700;
+}
+
+.nav-link {
+  padding: 0.15rem 0.9rem;
+}
+
+a.nav-link {
+  color:#7e7c7b!important;
+}
+
+.columnleft {
+  width: 33%;
+}
+
+.columnright {
+  width: 43%;
+}
+
+.col-left {
+  background-color: var(--color1);
+  color: #fff;
+}
+
+.col-right {
+  background-color: var(--color2);
+}
+
+.colmiddle {
+  width: 24%;
+  background-color: var(--color3);
+}
+
+.font-size-small {
+  font-size: 10px;
+}
+
+.font-size-medium {
+  font-size: 10.5px;
+}
+
+.font-size-large {
+  font-size: 18px;
+}
+
+.arrow-size {
+  height: 2rem !important;
+  vertical-align: middle;
+}
+
+.colum-slider {
+  width: 16%;
+}
+
+.bank-logo-size {
+  height: 4rem !important;
+  border: 1px var(--color1) solid;
+}
+
+.colorp-main {
+  color: var(--color1) !important;
+  font-size: 20px;
+  font-weight: 600 !important;
+}
+
+.detail-list {
+  padding-left: 0.5rem;;
+}
+
+.detail-list li {
+  list-style: none;
+}
+
+.number-icon {
+  height: 1.5rem !important;
+}
+
+.span-color {
+  color: var(--color2);
+}
+
+@media (min-width: 576px) {
+  a.nav-link.active, 
+  a.nav-link {
+    font-size: 17px;
+  }
+
+  .nav-link {
+    padding: 0.5rem 1rem;
+  }
+  .font-size-large {
+    font-size: 30px;
+  }
+
+  .font-size-small {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 768px) {
+  a.nav-link.active, 
+  a.nav-link {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .bank-logo-size {
+    height: 3.5rem !important;
+  }
+  .ml-bank {
+    margin-left: 4rem !important;
+  }
+}
+
+/* @media (max-width: 576px) {
+  .slick-track {
+    width: 100%!important;
+  }
+} */
