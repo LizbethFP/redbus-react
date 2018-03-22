@@ -4,10 +4,11 @@ import PropTypes from 'prop-types';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Logo = () => (
-  <img src={logo} alt="Pago Efectivo" className="img-fluid"/>
+  <img src={logo} alt="Pago Efectivo" className="img-fluid logo-footer" />
 )
+
+export default Logo;
 
 Logo.propTypes = {
   logo: PropTypes.string
-};
-export default Logo;
+}
