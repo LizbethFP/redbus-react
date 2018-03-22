@@ -19,7 +19,6 @@ const SliderBankIcons = ({ dataIconBanks}) => {
             {dataIconBanks.datacopy.banksInternet.map(ele => (
               <figure className="col" key={ele.id} {...ele}>
                 <img src={ele.url} alt={ele.id} className="p-1 img-fluid bank-logo-size" />
-                <figcaption className="text-center">{ele.info}</figcaption>
               </figure>
             ))}
           </Slider>

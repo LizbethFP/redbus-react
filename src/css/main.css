@@ -167,6 +167,9 @@ a.nav-link {
   .bank-logo-size {
     height: 3.5rem !important;
   }
+  .ml-bank {
+    margin-left: 4rem !important;
+  }
 }
 
 /* @media (max-width: 576px) {

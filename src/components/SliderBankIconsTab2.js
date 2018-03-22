@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Slider from 'react-slick'
 // import BCP from '../assets/images/bcp-logo.png';
 
@@ -17,10 +16,10 @@ const SliderBankIconsTab2 = ({ dataIconCash }) => {
         <div className="col-12">
           <Slider {...settings} className="col">
             {dataIconCash.banksCash.map(elemt => (
-              <div className="col" key={elemt.id} {...elemt}>
-                <img src={elemt.url} alt={elemt.id} className="p-1 img-fluid bank-logo-size" />
-                {/* <span className="text-center">{elemt.info}</span> */}
-              </div>
+              <figure className="col" key={elemt.id} {...elemt}>
+                <img src={elemt.url} alt={elemt.id} className="p-1 img-fluid bank-logo-size d-block ml-bank" />
+                <figcaption className="text-center">{elemt.info}</figcaption>
+              </figure>
             ))}
           </Slider>
         </div>
