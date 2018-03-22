@@ -1,5 +1,5 @@
 import React from 'react';
-import Main from './components/Main';
+import Main from './containers/container';
 
 const App = () => (
   <div className="row">
