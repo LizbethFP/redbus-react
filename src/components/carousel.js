@@ -9,8 +9,7 @@ const SimpleSlider = () => {
       slidesToShow: 3,
       slidesToScroll: 1
     };
-    return (
-      
+    return (      
         <div className="container color">
           <div className="row">
             <div className="col-12">

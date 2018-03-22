@@ -14,7 +14,7 @@ const Tab1 = ({ bankInternet }) => (
       <SectionTwoTab1 datacopy ={bankInternet}/>
     </Row>
     <Row className="show-grid">
-      <SectionThree />
+      <SectionThree bankInternetDetail={bankInternet}/>
     </Row>
   </div>
 )

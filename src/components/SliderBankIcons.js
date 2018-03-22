@@ -1,7 +1,7 @@
 import React from 'react';
 // import { Col } from 'react-bootstrap';
 // import BankItem from './BankItem';
-import Slider from 'react-slick'
+import Slider from 'react-slick';
 // import BCP from '../assets/images/bcp-logo.png';
 
 const SliderBankIcons = ({ dataIconBanks}) => {

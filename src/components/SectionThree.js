@@ -2,10 +2,10 @@ import React from 'react';
 import TextParagraphColor  from './TextParagraphColor';
 import TextParagraphDetails  from './TextParagraphDetails';
 
-const SectionThree = () => (
+const SectionThree = ({ bankInternetDetail}) => (
   <section className="col-12">
     <TextParagraphColor />
-    <TextParagraphDetails />
+    <TextParagraphDetails bankInternetDetail={bankInternetDetail} />
   </section>
 )
 
