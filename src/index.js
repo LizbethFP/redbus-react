@@ -1,15 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import {render} from 'react-dom';
 import Header from './components/Header';
 import Main from './containers/container';
 import Footer from './components/Footer';
 import { Provider } from 'react-redux';
 import store from './store';
 
-ReactDOM.render(      
+render(      
   <Provider store={store}>
-    <Header />
-    <Main />
-    <Footer />
+    <div>
+      <Header />
+      <Main />
+      <Footer />
+    </div>
   </Provider>, document.getElementById('root'));
 
