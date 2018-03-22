@@ -12,11 +12,17 @@
 .slick-prev {
   z-index: 100;
   left: 0px !important;
+  background-color: var(--color1) !important;
+  border-radius: 10px;
 }
+
 .slick-next {
   z-index: 100;
   right: 0px !important;
+  background-color: var(--color1) !important;
+  border-radius: 10px;
 } 
+
 button.slick-arrow.slick-next,
 button.slick-arrow.slick-prev {
   color: var(--color1);
