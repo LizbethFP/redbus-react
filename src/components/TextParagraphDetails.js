@@ -10,8 +10,8 @@ const TextParagraphDetail = ({ bankInternetDetail, detail}) => (
   </ul>
 )
 
-TextParagraphDetail.propTypes = {
-  detail: PropTypes.array.isRequired
-}
+// TextParagraphDetail.propTypes = {
+//   detail: PropTypes.array.isRequired
+// }
 
 export default TextParagraphDetail;

@@ -14,8 +14,8 @@ importe a pagar en Soles."/>
   </div>
 )
 
-TextParagraphDetailEfectivo.propTypes = {
-  detail: PropTypes.array.isRequired
-}
+// TextParagraphDetailEfectivo.propTypes = {
+//   detail: PropTypes.array.isRequired
+// }
 
 export default TextParagraphDetailEfectivo;

@@ -29,10 +29,10 @@ const SliderBankIcons = ({ dataIconBanks}) => {
   )
 }
 
-SliderBankIcons.propTypes = {
-  id: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired,
-  url: PropTypes.string.isRequired
-}
+// SliderBankIcons.propTypes = {
+//   id: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired,
+//   url: PropTypes.string.isRequired
+// }
 
 export default SliderBankIcons
 

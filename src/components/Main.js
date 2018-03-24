@@ -15,8 +15,8 @@ const Main = ({data}) => {
   )
 }
 
-Main.propTypes = {
-  data: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired
-}
+// Main.propTypes = {
+//   data: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired
+// }
 
 export default Main;
